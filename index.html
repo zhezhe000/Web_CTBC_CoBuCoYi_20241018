@@ -10,24 +10,88 @@
 
 <body>
     <!-- #nav>a.link*3+a.social*2 -->
-    <div id="nav">
-        <div id="logo">
-            <img src="./img/logo.png" alt="渴不渴以 LOGO">
+    <nav>
+        <div id="nav">
+            <div id="logo">
+                <img src="./img/eighteen_logo.png" alt="渴不渴以 LOGO">
+            </div>
+            <div id="link">
+                <a href="#title-news" class="link">連結A</a>
+                <a href="#title-content" class="link">連結B</a>
+                <a href="#title-idea" class="link">連結C</a>
+            </div>
+            <div id="social">
+                <a href="" class="social">
+                    <img src="./img/instagram.png" alt="iG">
+                </a>
+                <a href="" class="social">
+                    <img src="./img/facebook.png" alt="FB">
+                </a>
+            </div>
         </div>
-        <div id="link">
-            <a href="" class="link">連結A</a>
-            <a href="" class="link">連結B</a>
-            <a href="" class="link">連結C</a>
+    </nav>
+    <div id="banner"></div>
+    <section class="content">
+        <h1 id="title-news">最新消息</h1>
+
+        <!-- #news>(.card>h4{優惠資訊}+{最新消息標題}+p>lorem^img)*3 -->
+        <div id="news">
+            <div class="card">
+                <h4>優惠資訊</h4>
+                <h2>最新消息標題</h2>
+                <hr>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem esse tempore, harum itaque
+                    optio similique officia, enim iure soluta saepe reiciendis quae, nisi sunt autem iste eligendi
+                    fugit. Commodi, sunt.</p>
+                <img src="./img/drink.jpg" alt="">
+            </div>
+            <div class="card">
+                <h4>優惠資訊</h4>
+                <h2>最新消息標題</h2>
+                <hr>
+                <p>Omnis molestias, nesciunt nemo quod voluptas impedit esse in quia consequuntur pariatur ipsum odio
+                    facilis eveniet sunt est labore ratione recusandae maiores nulla possimus sequi modi quas ullam
+                    blanditiis. Similique.</p>
+                <img src="./img/drink.jpg" alt="">
+            </div>
+            <div class="card">
+                <h4>優惠資訊</h4>
+                <h2>最新消息標題</h2>
+                <hr>
+                <p>Corrupti, autem consequatur delectus recusandae consequuntur hic, ex alias ea atque placeat sint
+                    deserunt impedit voluptatibus mollitia incidunt adipisci voluptates veritatis sit corporis, error
+                    repellat. Sit alias similique odit a?</p>
+                <img src="./img/drink.jpg" alt="">
+            </div>
         </div>
-        <div id="social">
-            <a href="" class="social">社群
-                <img src="./img/instagram.png" alt="iG">
-            </a>
-            <a href="" class="social">社群
-                <img src="./img/facebook.png" alt="FB">
-            </a>
+    </section>
+    <section class="content">
+        <h1 id="title-content">推薦飲料</h1>
+        <div id="product">
+            <img src="./img/product_drink.png" alt="飲料產品 夏天飲料">
+            <div id="info">
+                <h2>夏日鳳梨冰茶</h2>
+                <h6>Summer Pineapple</h6>
+                <p>炎炎夏日，最適合來一杯帶有鳳梨果粒配上青茶的消暑茶飲，快來渴不渴以來一杯夏日鳳梨冰茶吧!</p>
+            </div>
         </div>
-    </div>
+    </section>
+    <section class="content">
+        <h1 id="title-idea">經營理念</h1>
+        <div id="idea">
+            <div id="idea-pic">
+                <img src="./img/idea.png" alt="經營理念 茶葉">
+            </div>
+            <div id="idea-content">
+                唯有按部就班，才能成就「好茶」。<br>
+                七十二小時慢火熬煮。<br>
+                <a herf="">閱讀更多</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        ©2024 - 2025 渴不渴以 ALL right reserved.
+    </footer>
 </body>
 
 </html>
